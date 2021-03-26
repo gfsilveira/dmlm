@@ -32,7 +32,7 @@ jobs:
             pip install -r packages/regression_model/requirements.txt
             py.test -vv packages/regression_model/tests
 
-- *fetch_data
+      - *fetch_data
       - run:
           name: Train model
           command: |
