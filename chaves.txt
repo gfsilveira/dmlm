@@ -1,0 +1,9 @@
+Kaggle
+KAGGLE_USERNAME 
+    gfsilveira
+KAGGLE_KEY
+    8ddc84b20e98c6a100c9a76904c92c7e
+
+Gemfury
+PIP_EXTRA_INDEX_URL
+    https://NPs7SJpxxty6GfupP8XH@pypi.fury.io/gfsilveira/
