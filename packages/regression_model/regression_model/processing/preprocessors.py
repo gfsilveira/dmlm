@@ -4,6 +4,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 from regression_model.processing.errors import InvalidModelInputError
 
+
 class CategoricalImputer(BaseEstimator, TransformerMixin):
     """Categorical data missing value imputer."""
 

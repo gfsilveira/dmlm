@@ -11,6 +11,7 @@ import logging
 
 _logger = logging.getLogger(__name__)
 
+
 price_pipe = Pipeline(
     [
         (
@@ -45,4 +46,5 @@ price_pipe = Pipeline(
         ),
         ("scaler", MinMaxScaler()),
         ("Linear_model", Lasso(alpha=0.005, random_state=0)),
-    ])
+    ]
+)

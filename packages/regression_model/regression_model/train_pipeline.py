@@ -11,8 +11,10 @@ import logging
 
 _logger = logging.getLogger(__name__)
 
+
 def run_training() -> None:
     """Train the model."""
+
     # read training data
     data = load_dataset(file_name=config.TRAINING_DATA_FILE)
 

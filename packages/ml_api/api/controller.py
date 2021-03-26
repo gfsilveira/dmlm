@@ -8,6 +8,7 @@ from api import __version__ as api_version
 
 _logger = get_logger(logger_name=__name__)
 
+
 prediction_app = Blueprint('prediction_app', __name__)
 
 
